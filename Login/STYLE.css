@@ -1,0 +1,94 @@
+
+
+/* إضافة صورة الخلفية */
+body {
+    background-image: url('Hadeel_alhazwara.jpg'); /* تأكد من أن الصورة موجودة في نفس المجلد أو حدد المسار الصحيح */
+    background-size: cover; /* لتغطية الصفحة كاملة */
+    background-position: center; /* لضمان وضع الصورة في منتصف الصفحة */
+    height: 100vh; /* التأكد من أن الخلفية تمتد على كامل ارتفاع الصفحة */
+    font-family: Arial, sans-serif; /* اختيار الخط */
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-container {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.719); /* خلفية بيضاء مع شفافية */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(255,255,255,0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #16459c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #16459c;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success-message {
+    background-color: #16459c;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.gender {
+    display: flex;
+    gap: 10px;
+    accent-color: #16459c;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+a {
+    color: #16459c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
